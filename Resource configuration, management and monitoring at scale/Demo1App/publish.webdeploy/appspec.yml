@@ -1,0 +1,6 @@
+version: 0.0
+os: windows
+
+hooks:
+  AfterInstall:
+    - location: .\installapp.ps1
