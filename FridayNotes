@@ -1,0 +1,43 @@
+Advanced PowerShell Scripting Workshop
+
+Presented by Jeff Hicks
+
+Better Advanced Functions
+	Use Set-StrictMode
+	Cmdlet binding -allows verbose to happen
+	Full cmdlet names, no aliases! (cross platform)
+	Use verbose messages from the start (also handy documentation)
+	Don’t use localhost in script (cross platform) -so it resolves to a real name
+	For error handling, use try-catch. Don’t use Trap
+	Don’t use -silentlycontinue to suppress error message
+	Don’t use Return keyword, it is a way to bail out of the code
+	Sometimes its helpful to add a comment at each end of the curly brackets to id when a bracket ends
+	If you have trouble capturing an error in a command, you can use -errorvariable to capture information if its not showing under try catch
+	Don’t use .net in Pshell, unless you need like a math function or something else. Use the cmdlet!
+	For help docs in scripts use a help block
+	No reason to use get-wmiobject any longer, use get-ciminstance from now on
+	Don’t use + to concatenate stuff together (join-path, test-path, resolve-path)
+		Variable expansion? "$env:TEMP
+	Single versus double quotes - double expands the command, single treats it as a literal
+	Check on subexpressions
+	
+	Copy-Command -helpful for using existing commands in different way
+	
+Using Parameter Sets
+	Show-command can be a GUI front end for your script if you want it
+	
+
+Dynamic Parameters
+
+Format and Type Extensions
+
+Better Module Development
+	Learn Platyps
+	Helps create markdown docs for your help
+	Allows for multi-language help as well
+
+PowerShell Scripting Best Practices, Tips, and Tricks
+	Register-AutoCompleter (needs PShell 5 or 5.1)
+
+http://bit.ly/hicks-pschatt19
+
