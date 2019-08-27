@@ -1,0 +1,55 @@
+Searching the event log like a boss
+Old comand get-eventlog (no longer used)
+Instead use get-winevent
+	Allows you use separate credential
+	
+Intro to DSC by Jeff Hicks
+	Makes building servers declarative instead of interactive
+	Uses local config manager, checks every 15 minutes
+	Have to have Pshell remoting enabled
+	Only applies to windows boxes right now.
+	Pshell needs to be at 5 or 5. at least
+	Can deploy resources using a push and pull method
+	
+Intro to Chocolatey by Stephen Valdinger
+	Nuget package manager for windows
+	Give 3 scripts when creating a new package: new, modify, uninstall
+	Can also have .zip files encased in package, it will deploy everything needed
+	
+Intro to Git and Github with TimWarner
+	https://timw.info/psotr
+	Git init starts tracking changes to code
+	Git add
+	Git commit
+	Git remote
+	Git pull
+	Git push
+	Fork and Clone taking a copy of something and using it on your side to make something new
+		Upstream - Origin - Local Copy
+	Create feature branch when working on commit from a certain point
+	Remember origin to make sure what branch you are in
+
+Containers you better get on board by Anthony E Nocentino
+@NOCENTINO
+	First OS virtualization - now we are sharing the kernel and system resources
+	One app inside the container
+	Images - code runtimes, ect.
+	Registries - where images live
+	Docker File - defines the container image
+	What about the data? 
+		Container image is read only
+		If the container is alive, so is your data, don’t delete the container
+		Writeable Layer
+		Docker Data Volumes
+			Managed separately
+	Running Powershell in Containers?
+		Build up container, run code, tear down container…
+		Kubernetes deals with orchestration, timers, ect.
+	Container Orchestration
+		How to run the container or job in the best place
+		Written in YAML?
+	Docker Swarm or Kubernetes
+	Red Hat OpenShift
+	
+
+	
